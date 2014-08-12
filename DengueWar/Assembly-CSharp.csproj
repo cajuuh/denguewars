@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CenaUm\Scripts\MosquitoScript.cs" />
      <Compile Include="Assets\CenaUm\Scripts\Player.cs" />
      <Compile Include="Assets\MainMenu\Scripts\MainMenu.cs" />
      <Compile Include="Assets\MainMenu\Scripts\SoundController.cs" />
