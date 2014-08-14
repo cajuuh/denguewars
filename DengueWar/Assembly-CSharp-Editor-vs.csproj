@@ -48,11 +48,11 @@
   <ItemGroup>
      <Compile Include="Assets\MapToolkit-lite\Script\Editor\LevelScriptEditor.cs" />
      <Compile Include="Assets\MapToolkit-lite\Script\Editor\Menu_Editor.cs" />
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
  <Reference Include="MapToolkit_Lite">
  <HintPath>C:/Users/Pedro/UnityProjects/DoGrupoJoDi/DengueWar2/DengueWar/Assets/MapToolkit-lite/Plugins/MapToolkit_Lite.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
