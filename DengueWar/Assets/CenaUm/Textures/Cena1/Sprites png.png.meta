@@ -1,25 +1,6 @@
 fileFormatVersion: 2
 guid: f8dd10af315a1aa41971d995222c1b60
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Sprites png
-    21300002: Sprites png_0
-    21300004: Sprites png_1
-    21300006: Sprites png_2
-    21300008: Sprites png_3
-    21300010: Sprites png_4
-    21300012: Sprites png_5
-    21300014: Sprites png_6
-    21300016: Sprites png_7
-    21300018: Sprites png_8
-    21300020: Sprites png_9
-    21300022: Sprites png_10
-    21300024: Sprites png_11
-    21300026: Sprites png_12
-    21300028: Sprites png_13
-    21300030: Sprites png_14
-    21300032: Sprites png_15
-    21300034: Sprites png_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +36,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
