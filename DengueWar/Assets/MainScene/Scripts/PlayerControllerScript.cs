@@ -3,9 +3,12 @@ using System.Collections;
 
 public class PlayerControllerScript : MonoBehaviour {
 
-	public float maxSpeed = 10f;
+	public float maxSpeed = 1.2f;
 	public bool facingRight = true;
+	int calculator;
 	
+	CNJoystick stick;
+
 	Animator anim;
 
 	void Start () 
@@ -16,11 +19,8 @@ public class PlayerControllerScript : MonoBehaviour {
 	
 	void FixedUpdate()
 	{
-		float move = Input.GetAxis("Horizontal");
 	}
-
 	void Update () 
 	{
-		
 	}
 }
