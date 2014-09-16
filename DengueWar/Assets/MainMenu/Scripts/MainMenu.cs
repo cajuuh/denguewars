@@ -52,7 +52,7 @@ public class MainMenu : MonoBehaviour {
 										PlaySomClick ();
 										Debug.Log ("Cliquei Iniciar");
 										//TODO Fazer mudar de Scene para scene do jogo com o codigo abaixo
-										//Application.LoadLevel(numDoLevelNoBuild);
+										Application.LoadLevel(2);
 								}
 								if (GUI.Button (new Rect (Screen.width * .25f, Screen.height * .5f, Screen.width * .5f, Screen.height * .1f), "", buttonOpcoesGUIStyle)) {
 										PlaySomClick ();

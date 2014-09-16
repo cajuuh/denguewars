@@ -17,27 +17,39 @@ public class ArrowScript : MonoBehaviour {
 	float groundRadius = 0.2f;
 	float speed = 0;
 	float i;
+	public float playerHealth = 100f;
 
 	bool facingRight = true;
 	float walking;
 
 	void Start()
 	{
+		
 		groundChecker = player.GetComponent<GroundCheckScript>();
 		anim = player.GetComponent<Animator>();
 	}
 
 	void FixedUpdate()
 	{
-		print(groundChecker.IsGrounded());
 		walking = player.rigidbody2D.velocity.x;
 		if(!facingRight)
 		{
 			walking *= -1;
 		}
 		anim.SetFloat("Speed", walking);
-		if(!anim.GetBool("Ground"))
+
+		if(playerHealth == 0)
 		{
+			Destroy(player.gameObject);
+			Application.LoadLevel(5);
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if(other.tag == "Khomar")
+		{
+			playerHealth -= 0.5f;
 		}
 	}
 

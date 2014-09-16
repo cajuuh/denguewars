@@ -8,11 +8,22 @@ public class GroundCheckScript : MonoBehaviour {
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
 
+	ArrowScript health;
+
 	Animator anim;
 	
 	void Start()
 	{
 		anim = GetComponent<Animator>();
+		health = GameObject.Find("Main Camera").GetComponent<ArrowScript>();
+	}
+
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if(other.gameObject.tag == "Khomar")
+		{
+			health.playerHealth -= 10;
+		}
 	}
 
 	void FixedUpdate() 

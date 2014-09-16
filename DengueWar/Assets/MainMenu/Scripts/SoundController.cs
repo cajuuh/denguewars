@@ -7,6 +7,7 @@ public enum soundsMenu{
 }
 
 public class SoundController : MonoBehaviour {
+	
 	public AudioClip somDeFundo;
 	public AudioClip somClickMenu;
 

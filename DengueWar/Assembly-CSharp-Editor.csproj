@@ -49,9 +49,15 @@
      <Compile Include="Assets\CNJoystick\Editor\CreateAtlas.cs" />
      <Compile Include="Assets\MapToolkit-lite\Script\Editor\LevelScriptEditor.cs" />
      <Compile Include="Assets\MapToolkit-lite\Script\Editor\Menu_Editor.cs" />
+     <None Include="Assets\UnitySlippyMap\Dll\ProjNet.1.2\ProjNet.xml" />
+     <None Include="Assets\UnitySlippyMap\Resources\Shaders\SomianUnlitTransparent.shader" />
      <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
+     <None Include="Assets\UnitySlippyMap\Resources\SRID.txt" />
  <Reference Include="MapToolkit_Lite">
  <HintPath>C:/Users/Pedro/Documents/DengueWars/denguewars/DengueWar/Assets/MapToolkit-lite/Plugins/MapToolkit_Lite.dll</HintPath>
+ </Reference>
+ <Reference Include="ProjNet">
+ <HintPath>C:/Users/Pedro/Documents/DengueWars/denguewars/DengueWar/Assets/UnitySlippyMap/Dll/ProjNet.1.2/ProjNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -60,6 +66,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{5696024D-8B25-A256-8306-ABF58F9E8482}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{CE3BEE1D-205E-C5FE-2A69-9EA718FA46BB}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

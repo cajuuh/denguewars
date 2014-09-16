@@ -49,9 +49,18 @@
      <Compile Include="Assets\CNJoystick\Editor\CreateAtlas.cs" />
      <Compile Include="Assets\MapToolkit-lite\Script\Editor\LevelScriptEditor.cs" />
      <Compile Include="Assets\MapToolkit-lite\Script\Editor\Menu_Editor.cs" />
+     <None Include="Assets\UnitySlippyMap\Dll\ProjNet.1.2\ProjNet.xml" />
+     <None Include="Assets\UnitySlippyMap\Resources\Shaders\SomianUnlitTransparent.shader" />
      <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
+     <None Include="Assets\UnitySlippyMap\Resources\SRID.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>C:/Users/Pedro/Documents/DengueWars/denguewars/DengueWar/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="MapToolkit_Lite">
  <HintPath>C:/Users/Pedro/Documents/DengueWars/denguewars/DengueWar/Assets/MapToolkit-lite/Plugins/MapToolkit_Lite.dll</HintPath>
+ </Reference>
+ <Reference Include="ProjNet">
+ <HintPath>C:/Users/Pedro/Documents/DengueWars/denguewars/DengueWar/Assets/UnitySlippyMap/Dll/ProjNet.1.2/ProjNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
